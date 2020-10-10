@@ -29,6 +29,4 @@ def return_string_array(array)
     new_array << counter.to_s
   end
   return new_array
-  end
-
 end
