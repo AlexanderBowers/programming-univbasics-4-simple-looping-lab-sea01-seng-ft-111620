@@ -28,5 +28,5 @@ def return_string_array(array)
   array.each do |counter|
     new_array << counter.to_s
   end
-  return new_array
+ new_array
 end
