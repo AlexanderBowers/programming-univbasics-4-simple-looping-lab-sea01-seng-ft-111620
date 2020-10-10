@@ -24,12 +24,11 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  counter = 0
   new_array = []
-  while new_array != array.length
-    array[counter].to_s
-    new_array << array[counter]
-    counter += 1
+  array.each do |counter|
+    new_array << counter.to_s
   end
-  new_array
+  return new_array
+  end
+    
 end
